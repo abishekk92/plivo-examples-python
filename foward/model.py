@@ -1,6 +1,6 @@
 from mongoengine import *
 
-connect('call_forward',host="mongodb://forward:forward@dharma.mongohq.com:10078/call_forward")
+connect('call_forward',host="MONGODB-URL")
 
 class Forward(Document):
 	sip=StringField()
